@@ -19,11 +19,11 @@ verify.addEventListener("click",function(){
     }
 
    else if(userinput=== gcaptcha.textContent){
-        alert("Matched")
+        alert("Captcha Verified Successfully!")
         form.submit();
     }
     else{
-        alert("not Matched")
+        alert("Invalid Captcha. Please try again.")
          form.submit();
     }
 
